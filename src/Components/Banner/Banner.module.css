@@ -1,0 +1,16 @@
+.bannerContainer{
+    height : 220px;
+    margin-top : 58px;
+    background:url("../../Images/imgBanner.jpg"),rgba(0, 0, 0, 0.3);
+    border-radius:25px;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: white;
+    font-weight:500;
+    font-size:48px;
+}

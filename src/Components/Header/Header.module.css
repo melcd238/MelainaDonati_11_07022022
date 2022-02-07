@@ -1,0 +1,18 @@
+.headerContainer{
+    width: 100%;
+    display : flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 20px;
+}
+.navigationList{
+    list-style: none;
+    display: flex;
+}
+.li{
+    color: #FF6060;
+    font-size : 24px;
+    font-weight :500;
+    margin-left:57px;
+}
