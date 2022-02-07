@@ -1,0 +1,11 @@
+.homeContainer{
+    margin-top:40px;
+    margin-bottom:20px;
+}
+.thumbsContainer{
+    background-color:#F6F6F6;
+    border-radius: 25px;
+    padding: 56px 50px 56px 50px;
+    display:flex;
+    flex-wrap: wrap;
+}

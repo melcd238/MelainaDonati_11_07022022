@@ -1,15 +1,15 @@
+//Librairies
 import './App.css';
-import Layout from './HOC/Layout'
 
-
-import Banner from '../src/Components/Banner/Banner'
+//Components
+import Layout from './HOC/Layout';
+import Home from './Containers/Home/Home'
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Banner/>
-      hello world !
+        <Home/>
       </Layout>
     </div>
   );

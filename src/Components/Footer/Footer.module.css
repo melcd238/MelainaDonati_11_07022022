@@ -4,9 +4,12 @@
     background-color: black;
     display: flex;
     flex-direction : column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     margin-top:60px;
+}
+.imgContainer{
+    margin-top:20px;
 }
 .rights{
     color: white;
