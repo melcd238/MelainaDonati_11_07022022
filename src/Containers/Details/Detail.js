@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Tag from '../../Components/Tag/Tag'
+
 function Detail (){
     return(
         <>
-        hello world!
+        <Tag/>
         </>
     )
 }
