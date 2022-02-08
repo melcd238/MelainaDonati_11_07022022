@@ -19,5 +19,5 @@ function Layout (props){
     )
 
 }
-// rajouter le Header et le footer
+// Faire affichage conditionnel pour la page 404 qui n'a pas de footer.
 export default Layout

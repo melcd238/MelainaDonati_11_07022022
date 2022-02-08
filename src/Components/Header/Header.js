@@ -3,6 +3,9 @@ import kasaLogo from '../../Images/kasaLogo.svg';
 import classes from '../Header/Header.module.css';
 
 
+import CustomLinks from './CustomLinks/CustomLinks';
+
+
 function Header (){
     return(
         <header className={classes.headerContainer}>
@@ -11,8 +14,8 @@ function Header (){
         </div>
         <nav>
            <ul className={classes.navigationList}>
-               <li className={classes.li}> Accueil</li>
-               <li className={classes.li}> A Propos</li>
+               <li><CustomLinks className={classes.li} to="/">Accueil</CustomLinks> </li>
+               <li><CustomLinks className={classes.li} to="about">A Propos</CustomLinks></li>
            </ul>
         </nav>
     </header>

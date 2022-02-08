@@ -1,0 +1,17 @@
+.notFoundContainer{
+    margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+    jutify-content: center;
+    align-items:center;
+}
+.oups{
+    color:#FF6060;
+    font-size: 36px;
+    font-weight:500;
+    margin-top:52px;
+    margin-bottom:120px;
+}
+.link{
+    color:#FF6060;
+}
