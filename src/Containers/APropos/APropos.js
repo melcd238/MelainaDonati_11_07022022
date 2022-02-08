@@ -20,7 +20,7 @@ function APropos(props){
                                - Obtenez des réponses à vos questions
                                - Communiquez et payez toujours sur Kasa
                                - Effectuez un contrôle de sécurité
-                               - Faites des recherches concernant les alertes et précautions de voyage"/>
+                               - Faites des recherches concernant les alertes et précautions de voyage."/>
  
              <Dropdown value="Respect"
                        content="La bienveillance fait partie des valeurs fondatrices de Kasa.
