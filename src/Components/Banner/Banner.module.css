@@ -1,8 +1,18 @@
-.bannerContainer{
+.bannerContainerHome{
     height : 220px;
     margin-bottom: 40px;
-    background:url("../../Images/imgBanner.jpg"),rgba(0, 0, 0, 0.3);
     border-radius:25px;
+    background:url("../../Images/imgBanner.jpg"),rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannerContainerAbout{
+    height : 220px;
+    margin-bottom: 40px;
+    border-radius:25px;
+    background:url("../../Images/aboutBanner.png"),rgba(0, 0, 0, 0.3);
     background-blend-mode: darken;
     display: flex;
     justify-content: center;
