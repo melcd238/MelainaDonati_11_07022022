@@ -8,6 +8,8 @@ import arrowback from '../../Images/arrowBack.png';
 function SmallDropdown(props){
     const [isOpen, setIsOpen] = useState(false);
 
+
+
     return(
         <div className={classes.dropdonwContainer}>
         <div className={classes.dropdown}>
@@ -23,7 +25,9 @@ function SmallDropdown(props){
            </div>
         </div>
           <div className={isOpen ? classes.contentContainer : classes.contentContainerClose}>
-                 <p className={classes.contentParaph}>{props.description}</p>
+             <p className={classes.contentParaph}>{props.description}</p> 
+             
+                 
           </div>
         </div>
     )

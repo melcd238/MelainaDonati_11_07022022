@@ -3,38 +3,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.title{
-    color :#FF6060;
-    font-size: 36px;
-    font-weight: 500;
-}
-.location{
-    color :#FF6060;
-    font-size: 18px;
-    font-weight: 500;
-    margin-top:-22px;
-}
-.titleContent{
-    display:flex;
-    flex-direction: column;
-}
-.hostContent{
-    display: flex;
 
-}
-.hostPicture{
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-}
-.hostName{
-    color :#FF6060;
-    font-size: 18px;
-    font-weight: 500;
-    margin-right: 10px;
-    width: 93px;
-    margin-top: 8px;
-}
 .tagsContainer{
     display: flex;
 }
@@ -48,4 +17,7 @@
     justify-content: space-between;
     margin-top:26px;
     margin-bottom:40px;
+}
+.gallery{
+   margin-top: 40px;
 }
