@@ -1,3 +1,10 @@
+.linkThumb{
+    width:320px;
+    height:320px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 10px auto;
+}
 .thumbCard{
     width:320px;
     height:320px;
@@ -5,12 +12,11 @@
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    margin: 10px auto;
     background-clip: border-box;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    cursor: pointer;
+   
 }
 .thumbCard:hover{
     transform: scale(1.05);

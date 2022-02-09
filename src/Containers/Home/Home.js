@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import classes from '../Home/Home.module.css';
-import dataKasa from '../../Data/Data'
+import dataKasa from '../../Data/Data';
 
 //Components
 import Banner from '../../Components/Banner/Banner';
@@ -12,6 +12,7 @@ import Thumb from '../../Components/Thumb/Thumb';
 function Home (props){
   //State
   const [data, setData] = useState([]);
+  
  
   //Functions
   const getAllDataKasa = () =>{
@@ -21,7 +22,9 @@ function Home (props){
   //ComponentDidMount
       useEffect(()=>{
         getAllDataKasa(dataKasa)
-  }, [])
+  }, []);
+
+ 
 
 
   // on va ensuite passer la data au composant Thumb grâce au props
@@ -32,7 +35,8 @@ function Home (props){
             {data.map((d,index) =>(
                 <Thumb key={d.id}
                        cover={d.cover}
-                       title={d.title}/>
+                       title={d.title}
+                       id = {d.id}/>
             ))}
           </div>
         </div>
