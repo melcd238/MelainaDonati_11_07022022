@@ -8,23 +8,40 @@ import left from '../../Images/left.svg';
 function Gallery (props){
      // State
      const [currentPicture, setCurrentPicture]=useState(props.pictures[0]);
-
-     // recup le numéro en cours de la photo affichée:
+    
+      // recup le numéro en cours de la photo affichée:
      let index = props.pictures.indexOf(currentPicture);
      let number = ( <span>{++index}</span>)
     
 
      const HandlePrevPicture = (e) =>{
-        console.log("prev")
-        // modifier le state avec la photo précédente
+        let index = props.pictures.indexOf(currentPicture);
+        let newIndex;
+       if( index <= props.pictures.length -1){
+          newIndex = --index;
+        console.log(newIndex)
+        setCurrentPicture(props.pictures[newIndex])
+         if(newIndex === -1){
+            setCurrentPicture(props.pictures[props.pictures.length -1])
+         }
+       } 
+        
      }
 
      const HandleNextPicture = (e) =>{
-        console.log("next")
-        // modifier le state avec la photo suivente
+       let index = props.pictures.indexOf(currentPicture);
+       if(index <= props.pictures.length -1){
+           let newIndex = ++index;
+           console.log(newIndex)
+           setCurrentPicture(props.pictures[newIndex])
+           if(newIndex === props.pictures.length){
+               newIndex = 0;
+               setCurrentPicture(props.pictures[newIndex])
+           }
+       }
      }
-
-   
+    
+     
 
     return(
         <div className={classes.gallery} style={{backgroundImage:  `url(${currentPicture})`}}>
