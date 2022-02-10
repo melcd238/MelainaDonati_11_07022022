@@ -39,7 +39,7 @@ function Detail (props){
              </div>
 
               <div className={classes.starsContainer}>
-                     <Stars/>
+                     <Stars rating={data.rating}/>
                </div>
          </div>
 

@@ -31,7 +31,6 @@ function Gallery (props){
         let newIndex;
        if( index <= props.pictures.length -1){
           newIndex = --index;
-        console.log(newIndex)
         setCurrentPicture(props.pictures[newIndex])
          if(newIndex === -1){
             setCurrentPicture(props.pictures[props.pictures.length -1])
@@ -44,7 +43,6 @@ function Gallery (props){
        let index = props.pictures.indexOf(currentPicture);
        if(index <= props.pictures.length -1){
            let newIndex = ++index;
-           console.log(newIndex)
            setCurrentPicture(props.pictures[newIndex])
            if(newIndex === props.pictures.length){
                newIndex = 0;
