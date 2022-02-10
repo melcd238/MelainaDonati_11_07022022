@@ -43,9 +43,9 @@ function Detail (props){
          </div>
 
          <div className={classes.smallDropdownContainer}>
-            <SmallDropdown description = {data.description}
-                           title="Description"/>
-            <SmallDropdown equipements = {data.equipments}
+            <SmallDropdown  title="Description" 
+                            description= {data.description} />
+            <SmallDropdown equipments = {data.equipments}
                            title="Equipements"/>               
          </div>
         
