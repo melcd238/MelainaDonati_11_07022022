@@ -6,4 +6,15 @@
     display: flex;
     justify-content: space-between;
     align-items:center;
+    border-radius: 25px;
+    background-clip: border-box;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.compteur{
+    align-self:flex-end;
+    color:white;
+    font-size: 18px;
+    font-weight:500;
 }

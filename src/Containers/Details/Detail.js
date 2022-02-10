@@ -9,6 +9,7 @@ import Gallery from '../../Components/Gallery/Gallery';
 import Stars from '../../Components/Stars/Stars';
 import DetailTitle from '../../Components/DetailTitle/DetailTitle';
 
+
 function Detail (props){
   // je recupère l'id en paramètre de l'url et la data en fonction de l'id  
      let params = useParams();
@@ -18,7 +19,7 @@ function Detail (props){
         <div className={classes.detailContainer}>
 
             <div className={classes.gallery}>
-               <Gallery/>
+               <Gallery pictures= {data.pictures}/>
 
             </div>
 
