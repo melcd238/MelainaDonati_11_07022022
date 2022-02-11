@@ -5,21 +5,18 @@ import fullStar from '../../Images/starRed.svg';
 
 function Stars (props){
    
+   const checkStart = (index) => {
+      return index < parseInt(props.rating) ? {image :fullStar, alt: 'full star'} :  {image :stars, alt: 'empty star'}
+   }
 
    return(
       [...Array(5).keys()].map((index) => {
-         if (index < parseInt(props.rating)){
-            return(
-               <img src= {fullStar}   alt={"empty star"} key={index} style={{marginRight : "10px"}} />
-            )
-         } else {
-            return (
-               <img src= {stars}   alt={"empty star"} key={index} style={{marginRight : "10px"}} />
-            )
+         const star = checkStart(index)
+         return (
+      <img src= {star.image}   alt={star.alt} key={index} style={{marginRight : "10px"}} />
+      )
          }
-        
-         })
-   )
+   ))
    
 }
 
