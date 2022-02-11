@@ -1,11 +1,10 @@
 .dropdonwContainer{
-    max-width :1023px;
+    max-width :580px;
     width:100%;
+    
 }
 .dropdown{
     background-color:#FF6060;
-    max-width :582px;
-    width:100%;
     height : 52px;
     border-radius:5px;
     display:flex;
@@ -17,19 +16,18 @@
     color: white;
     padding-left: 18px;
     font-weight: 500;
+    font-size:18px;
 }
 .arrow{
     width: 20px;
     height:20px;
-    padding-right:18px;
+    margin-right:18px;
     cursor:pointer;
 }
 .contentContainer{
     background-color:#E5E5E5;
-    max-width :582px;
-    width:100%;
-    border-radius:5px;
-    margin-top: -18px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
    
     
 }
@@ -46,4 +44,23 @@
     list-style:none;
     font-size:18px;
     color:#FF6060;
+}
+
+@media screen and (max-width: 1025px){
+    .dropdonwContainer{
+        max-width :400px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .dropdonwContainer{
+        max-width :500px;
+        margin-bottom:20px;
+    }
+    .contentParaph{
+        font-size:1.3rem;
+    }
+    .title{
+        font-size:1.5rem;
+    }
 }

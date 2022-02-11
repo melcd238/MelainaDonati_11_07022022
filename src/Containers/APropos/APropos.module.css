@@ -2,6 +2,10 @@
     margin-top:40px;
     margin-bottom:20px;
 }
+.bannerContainer{
+    display: flex;
+    justify-content: center;
+}
 .dropdownList{
     display: flex;
     flex-direction: column;

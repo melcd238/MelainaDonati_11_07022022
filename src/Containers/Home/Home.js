@@ -30,7 +30,9 @@ function Home (props){
   // on va ensuite passer la data au composant Thumb grâce au props
     return(
         <div className={classes.homeContainer}>
-          <Banner/>
+          <div className={classes.bannerContainer}>
+               <Banner/>
+          </div>
           <div className={classes.thumbsContainer}>
             {data.map((d,index) =>(
                 <Thumb key={d.id}

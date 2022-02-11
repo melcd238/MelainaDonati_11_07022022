@@ -1,19 +1,27 @@
 .bannerContainerHome{
+    width :100%;
+    max-width: 1240px;
     height : 220px;
     margin-bottom: 40px;
     border-radius:25px;
     background:url("../../Images/imgBanner.jpg"),rgba(0, 0, 0, 0.3);
     background-blend-mode: darken;
+    background-size:cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .bannerContainerAbout{
+    width :100%;
+    max-width: 1240px;
     height : 220px;
     margin-bottom: 40px;
     border-radius:25px;
     background:url("../../Images/aboutBanner.png"),rgba(0, 0, 0, 0.3);
     background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size:cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,4 +31,21 @@
     color: white;
     font-weight:500;
     font-size:48px;
+}
+
+@media screen and (max-width: 600px){
+    .title{
+        font-size:24px;
+        padding-left:10px;
+    }
+    .bannerContainerHome{
+        width: 335px;
+        height : 111px;
+        margin-bottom: 0;
+    }
+    .bannerContainerAbout{
+        width: 500px;
+        height : 300px;
+        margin-bottom:0;
+    }
 }

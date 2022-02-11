@@ -2,6 +2,8 @@
     width: 100%;
     display : flex;
     justify-content: space-between;
+    align-items:center;
+    margin-top:40px;
 }
 .logo{
     margin-left: 20px;
@@ -15,4 +17,30 @@
     font-size : 24px;
     font-weight :500;
     margin-left:57px;
+}
+
+@media screen and (max-width: 768px){
+    .li{
+        font-size : 20px;
+        margin-left:16px;
+    }
+    .headerContainer{
+        margin-top:20px;
+    }  
+}
+@media screen and (max-width: 600px){
+    .li{
+        font-size : 18px;
+        margin-left:10px;
+    } 
+    .logo{
+        margin-left:0px;
+        width:100px;
+    }
+}
+@media screen and (max-width: 340px){
+    .li{
+        font-size : 12px;
+        margin-left:8px;
+    } 
 }

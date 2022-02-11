@@ -1,8 +1,5 @@
 import React from 'react';
 import classes from '../HOC/Layout.module.css';
-import {
-    useLocation
-  } from "react-router-dom";
 
 
 import Header from '../Components/Header/Header';
@@ -12,8 +9,8 @@ import Footer from '../Components/Footer/Footer';
 
 
 function Layout(props){
-    const location = useLocation();
-    console.log(location)
+  
+   
    
    return(
         <div className={classes.Layout}>

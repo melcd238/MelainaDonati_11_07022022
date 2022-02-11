@@ -7,7 +7,6 @@
     color :#FF6060;
     font-size: 18px;
     font-weight: 500;
-    margin-top:-22px;
 }
 .titleContent{
     display:flex;
@@ -29,4 +28,16 @@
     margin-right: 10px;
     width: 93px;
     margin-top: 8px;
+}
+@media screen and (max-width: 768px){
+    .title{
+        font-size: 24px;
+    }
+    .location{
+        font-size: 14px;
+    }
+    .hostName{
+        font-size: 14px;
+        width: 90px;
+    }
 }

@@ -31,6 +31,7 @@ function Detail (props){
             </div>
 
          <div className={classes.tagsAndStarsContainer}>
+            
              <div className={classes.tagsContainer} >
                 {data.tags.map((tag)=>(
                         <Tag key={tag}

@@ -8,7 +8,6 @@ function Stars (props){
 
    return(
       [...Array(5).keys()].map((index) => {
-         console.log(index)
          if (index < parseInt(props.rating)){
             return(
                <img src= {fullStar}   alt={"empty star"} key={index} style={{marginRight : "10px"}} />
@@ -22,8 +21,6 @@ function Stars (props){
          })
    )
    
-     
-  
 }
 
 export default Stars;

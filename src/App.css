@@ -5,10 +5,12 @@ body{
 
 .App {
   height: 100vh;
-  margin-top : 40px;
-  margin-left: 100px;
-  margin-right : 100px;
+  margin: auto;
+  width: 90%;
+  max-width: 1240px; 
+
 }
+
 
 
 
