@@ -57,14 +57,14 @@ function Gallery (props){
         <div className={classes.gallery} style={{backgroundImage:  `url(${currentPicture})`}}>
            
             <div>
-                {arrayNumber ? "" : <img src={left} alt="fleche gauche" style={{marginLeft : "22px",cursor:"pointer"}} onClick = {(e)=>HandlePrevPicture(e)}/> }
+                {arrayNumber ? "" : <img src={left} alt="fleche gauche" className={classes.arrow} style={{marginLeft : "22px",cursor:"pointer"}} onClick = {(e)=>HandlePrevPicture(e)}/> }
             </div>
           
             <div className={classes.compteur}>
                {number}
               /{props.pictures.length}</div>
             <div>
-               {arrayNumber ? "" : <img src={right} alt="fleche gauche" style={{marginRight : "22px",cursor:"pointer" }} onClick = {(e)=> HandleNextPicture(e)} /> }
+               {arrayNumber ? "" : <img src={right} alt="fleche gauche" className={classes.arrow} style={{marginRight : "22px",cursor:"pointer" }} onClick = {(e)=> HandleNextPicture(e)} /> }
             </div>
         </div>
     )

@@ -11,7 +11,11 @@ function DetailTitle (props){
                 <p className={classes.location} >{props.location}</p>
           </div>
            <div className={classes.hostContent}>
-                 <p className={classes.hostName}>{props.hostName}</p>
+                 <div>
+                 <p className={classes.hostName}>{props.hostName.split(" ")[0]}</p>
+                 <p className={classes.hostName} style={{marginTop:"0px"}}>{props.hostName.split(" ")[1]}</p>
+                 </div>
+                 
                  <div><img src={props.hostPicture} alt="" className={classes.hostPicture}/></div>
            </div>
         </>

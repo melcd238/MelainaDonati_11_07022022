@@ -3,11 +3,11 @@ body{
   padding: 0;
 }
 
-.App {
+.containerApp {
   height: 100vh;
-  margin: auto;
-  width: 90%;
+  width: 80%;
   max-width: 1240px; 
+  margin: auto;
 
 }
 

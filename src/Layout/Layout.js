@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../HOC/Layout.module.css';
+import classes from '../Layout/Layout.module.css';
 
 
 import Header from '../Components/Header/Header';

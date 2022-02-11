@@ -1,0 +1,10 @@
+.starsImg{
+    margin-right:10px;
+ }
+@media screen and (max-width: 768px){
+    .starsImg{
+       witdth:15px;
+       height: 15px;
+       margin-right:2px;
+    }
+}

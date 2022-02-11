@@ -10,7 +10,7 @@ function Header (){
     return(
         <header className={classes.headerContainer}>
         <div className={classes.logo}>
-          <CustomLinks to="/"><img src={kasaLogo} alt="Logo de Kasa" style={{width:"140px"}}></img> </CustomLinks>   
+          <CustomLinks to="/"><img src={kasaLogo} alt="Logo de Kasa"  className={classes.kasalogo}></img> </CustomLinks>   
         </div>
         <nav>
            <ul className={classes.navigationList}>

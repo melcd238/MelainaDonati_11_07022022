@@ -1,6 +1,5 @@
 .tag{
     width:160px;
-    
     height:25px;
     background-color:#FF6060;
     border-radius:10px;
@@ -21,5 +20,15 @@
     }
     .tag{
         width:150px;
+    }
+    .tag{
+        width:85px;
+        height:18px;
+        background-color:#FF6060;
+        border-radius:10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right:8px;
     }
 }

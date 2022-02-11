@@ -18,3 +18,15 @@
     font-size: 18px;
     font-weight:500;
 }
+@media screen and (max-width: 580px){
+    .gallery{
+        width: 100%;
+        max-width:335px;
+        height: 255px;
+     
+    }
+    .arrow{
+        width:12px;
+        height: 20px;
+    }
+}

@@ -26,8 +26,29 @@
     font-size: 18px;
     font-weight: 500;
     margin-right: 10px;
-    width: 93px;
     margin-top: 8px;
+}
+@media screen and (max-width: 1024px){
+    .hostContent{
+        position:absolute;
+        right:0%;
+        top:225%;
+    
+    }
+    .hostName{
+        margin-right:0px;
+        width: 93px;
+        margin-top: 8px;
+    }
+
+}
+@media screen and (max-width: 850px){
+    .hostContent{
+        position:absolute;
+        right:0%;
+        top:225%;
+    
+    }
 }
 @media screen and (max-width: 768px){
     .title{
@@ -39,5 +60,11 @@
     .hostName{
         font-size: 14px;
         width: 90px;
+    }
+    .hostContent{
+        position:absolute;
+        right:0%;
+        top:270%;
+    
     }
 }

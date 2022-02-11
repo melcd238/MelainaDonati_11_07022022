@@ -1,6 +1,7 @@
 import React from 'react';
 import stars from '../../Images/rating.svg';
 import fullStar from '../../Images/starRed.svg';
+import classes from '../Stars/Stars.module.css';
 
 
 function Stars (props){
@@ -13,7 +14,7 @@ function Stars (props){
       [...Array(5).keys()].map((index) => {
          const star = checkStart(index)
          return (
-      <img src= {star.image}   alt={star.alt} key={index} style={{marginRight : "10px"}} />
+      <img src= {star.image}   alt={star.alt} key={index} className={classes.starsImg} />
       )
          }
    ))

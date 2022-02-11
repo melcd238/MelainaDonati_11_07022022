@@ -15,10 +15,13 @@
     color: white;
     font-weight:500;
     font-size:24px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 600px){
     .rights{
         font-size:12px;
+        margin-bottom: 10px;
+
     }
 }

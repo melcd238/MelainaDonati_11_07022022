@@ -3,7 +3,7 @@ import './App.css';
 import {Routes, Route } from "react-router-dom";
 
 //Components
-import Layout from './HOC/Layout';
+import Layout from './Layout/Layout';
 import Home from './Containers/Home/Home';
 import NotFound from './Containers/NotFound/NotFound';
 import APropos from './Containers/APropos/APropos';
@@ -13,7 +13,7 @@ import Detail from './Containers/Details/Detail';
 
 function App() {
   return (
-    <div className="App">
+    <div className="containerApp">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />}></Route>

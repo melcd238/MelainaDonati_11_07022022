@@ -31,24 +31,28 @@
 }
 @media screen and (max-width: 600px){
     .linkThumb{
-        width:335px;
+        width:100%;
+       max-width:335px;
         height:255px;
         margin: 20px auto;
     }
     .thumbCard{
-        width:335px;
+        width:100%;
+       max-width:335px;
         height:255px;
         margin: 20px auto;
      }
 }
 @media screen and (max-width: 340px){
     .linkThumb{
-        width:290px;
+        width:100%;
+       max-width:290px;
         height:210px;
         margin: 10px auto;
     }
     .thumbCard{
-        width:290px;
+        width:100%;
+       max-width:290px;
         height:210px;
         margin: 10px auto;
      }
