@@ -1,0 +1,24 @@
+.hostContent{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+.hostPicture{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display:bloc;
+    margin-left:10px;
+}
+.hostName{
+    color :#FF6060;
+    font-size: 18px;
+    font-weight: 500;
+}
+@media screen and (max-width: 768px){
+    .hostName{
+        font-size: 14px;
+        
+    }
+    
+}

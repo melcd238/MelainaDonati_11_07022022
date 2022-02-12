@@ -8,6 +8,7 @@ import SmallDropdown from '../../Components/SmallDropdown/SmallDropdown';
 import Gallery from '../../Components/Gallery/Gallery';
 import Stars from '../../Components/Stars/Stars';
 import DetailTitle from '../../Components/DetailTitle/DetailTitle';
+import Host from '../../Components/Host/Host';
 
 
 function Detail (props){
@@ -18,32 +19,28 @@ function Detail (props){
     return(
         <div className={classes.detailContainer}>
 
-            <div className={classes.gallery}>
-               <Gallery pictures= {data.pictures}/>
-
-            </div>
-
-            <div className={classes.titleContainer}>
-                   <DetailTitle title={data.title}
-                                location={data.location}
-                                hostName= {data.host.name} 
-                                hostPicture= {data.host.picture}/>
-            </div>
-
-         <div className={classes.tagsAndStarsContainer}>
-            
-             <div className={classes.tagsContainer} >
-                {data.tags.map((tag)=>(
-                        <Tag key={tag}
-                            title = {tag} />
-                ))}
-             </div>
-
-              <div className={classes.starsContainer}>
-                     <Stars rating={data.rating}/>
+               <div className={classes.gallery}>
+                    <Gallery pictures= {data.pictures}/>
                </div>
-         </div>
 
+             <div className={classes.leftAndRightSide}>
+                   <div className={classes.leftSide}>
+                           <DetailTitle title={data.title}
+                                 location={data.location}/>
+                        <div className={classes.tagsContainer} >
+                           {data.tags.map((tag)=>( <Tag key={tag} title = {tag} /> ))}
+                        </div>       
+                  </div>
+            
+                  <div className={classes.rightSide}>
+                         <Host hostName= {data.host.name} 
+                         hostPicture= {data.host.picture}/>
+                     <div className={classes.starsContainer}>
+                        <Stars rating={data.rating}/>
+                     </div>
+                  </div>
+             </div>
+             
          <div className={classes.smallDropdownContainer}>
             <SmallDropdown  title="Description" 
                             description= {data.description} />
