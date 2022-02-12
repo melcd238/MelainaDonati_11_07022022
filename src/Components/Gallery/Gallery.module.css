@@ -18,7 +18,16 @@
     font-size: 18px;
     font-weight:500;
 }
-@media screen and (max-width: 580px){
+.arrow{
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .arrow{
+        width:22px;
+        height: 28px;
+    }
+}
+@media screen and (max-width: 480px){
     .gallery{
         width: 100%;
         max-width:335px;

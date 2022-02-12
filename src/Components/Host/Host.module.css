@@ -20,5 +20,9 @@
         font-size: 14px;
         
     }
+    .hostPicture{
+        width: 32px;
+        height: 32px;
+    }
     
 }
