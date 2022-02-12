@@ -2,6 +2,7 @@
     display:flex;
     justify-content: space-between;
     margin-top:30px;
+    flex-wrap:wrap;
 }
 
 .smallDropdownContainer{
@@ -32,6 +33,21 @@
         justify-content: center;
         align-items: center;
         margin-bottom:20px;
+    }
+    .leftAndRightSide{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+       
+    }
+    .starsContainer{
+        margin-top:0px;
+    }
+    .rightSide{
+        display:flex;
+        flex-direction : row-reverse;
+        align-items: center;
+        justify-content: space-between;
     }
   
 }
