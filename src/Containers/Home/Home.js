@@ -33,7 +33,7 @@ const getAllDataKasa = () =>{
  
  // on va ensuite passer la data au composant Thumb grâce au props
     return(
-        <>
+        <div>
         { loader ? 
                  <div className={classes.homeContainer}>
                  <div className={classes.bannerContainer}>
@@ -53,7 +53,7 @@ const getAllDataKasa = () =>{
       
       }
 
-         </>
+         </div>
       
       
         
