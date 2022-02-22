@@ -29,9 +29,9 @@ function SmallDropdown(props){
                onClick={e => {setIsOpen(!isOpen)}}>
 
                    {isOpen ? 
-                   <img src={arrowback} alt="fleche vers le bas"></img>
+                   <img src={arrowup} alt="fleche vers le bas"></img>
                    :
-                   <img src={arrowup} alt="fleche vers le haut"></img>
+                   <img src={arrowback} alt="fleche vers le haut"></img>
                   }
            </div>
         </div>

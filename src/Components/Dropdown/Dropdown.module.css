@@ -28,7 +28,8 @@
     cursor:pointer;
 }
 .contentContainer{
-    background-color:#E5E5E5;
+    background-color:#F6F6F6;
+    ;
     max-width :1023px;
     width:100%;
     border-bottom-left-radius:5px;

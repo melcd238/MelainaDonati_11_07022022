@@ -26,7 +26,6 @@ function Detail (props){
   } else {
    return(
       <div className={classes.detailContainer}>
-
              <div className={classes.gallery}>
                   <Gallery pictures= {data.pictures}/>
              </div>
